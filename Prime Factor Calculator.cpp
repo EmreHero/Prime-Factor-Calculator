@@ -28,11 +28,12 @@ int main() {
 		// if the divisor can't divide the number without remainder anymore
 		if (exponent != 0) {
 			std::cout << divisor << "^" << exponent;
+			// if there is uncalculated prime factors left
+			if (number != 1 && exponent != 0) std::cout << " * ";
 			exponent = 0;
 		}
 		
-		// if there is uncalculated prime factors left
-		if (number != 1 && exponent != 0) std::cout << " * ";
+		
 	}
 	
 	std::cout << std::endl;
