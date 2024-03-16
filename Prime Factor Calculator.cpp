@@ -32,8 +32,6 @@ int main() {
 			if (number != 1 && exponent != 0) std::cout << " * ";
 			exponent = 0;
 		}
-		
-		
 	}
 	
 	std::cout << std::endl;
